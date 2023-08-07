@@ -38,13 +38,26 @@ body {
     padding-top: 1rem;
   }
   #container-Proj {
-    flex-direction: column;
+    border: black solid 1px;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+    gap: 2rem;
   }
   #container-Proj img {
     width: 100%;
   }
   #Projects {
+    text-align: left;
     margin-top: 2rem;
     font-size: 2rem;
+  }
+  #Projects span {
+    font-size: 3.7rem;
+  }
+  #container-Proj p {
+    text-align: start;
+  }
+  #containercontext{
+    padding-top: 0;
   }
 }

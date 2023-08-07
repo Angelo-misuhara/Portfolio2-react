@@ -5,6 +5,7 @@ const MainPage = () => {
 
   useEffect(() => {
     AOS.init()
+    AOS.refreshHard()
   })
 
   const contacts = [
@@ -27,7 +28,7 @@ const MainPage = () => {
     <>
       <div className="flex flex-row pt-[5rem] flex-wrap justify-between overflow-hidden" id='mainpageIntro'>
         <div className=" p-7 basis-2/4" id="intros">
-          <h1 data-aos="fade" data-aos-duration="1500" data-aos-delay="200" className="text-6xl font-bold" id="intro">FrontEnd<span  data-aos="fade-left" data-aos-duration="900" data-aos-delay="400" className="text-2xl text-[#4fa165]"> Developer</span></h1>
+          <h1 data-aos="fade" data-aos-duration="1500" data-aos-delay="200" className="text-6xl font-black" id="intro">FrontEnd<span  data-aos="fade-left" data-aos-duration="900" data-aos-delay="400" className="text-2xl text-[#4fa165]"> Developer</span></h1>
           <p className="text-justify" data-aos="fade-right" data-aos-duration="800" data-aos-delay="700"> Hi! Im Angelo. Im aspiring Web Dev, My creativity is the compass that guides me through the boundless ocean of coding possibilities. I approach each project fearlessly, experimenting, and pushing the boundaries to create unforgettable digital experiences.</p>
           <div className="flex flex-row gap-2 pt-2" data-aos="fade-right" data-aos-duration="800" data-aos-delay="900">
             {contacts.map((img, key) => (
