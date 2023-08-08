@@ -59,8 +59,8 @@ const Projects = () => {
            <div className="basis-2/4 flex flex-col gap-2 pt-4" id="containercontext">
               <h1 className="text-3xl font-medium" data-aos="fade-right" data-aos-duration="500" data-aos-delay="600">{Proj.title }</h1>
               <p className="text-justify" data-aos="fade-right" data-aos-duration="500" data-aos-delay="800">{Proj.About}</p>
-             <div className='mt-5'>
-               <Button className='px-2 bg-[#d3e3e9] hover:bg-[#6fb8a7]' data-aos="fade-right" data-aos-duration="500" data-aos-delay="500">
+             <div className='mt-5' data-aos="fade-right" data-aos-duration="500" data-aos-delay="500">
+               <Button className='px-2 bg-[#d3e3e9] hover:bg-[#6fb8a7]' >
                   <p>
                     <a href={Proj.link }>Visit Site</a>
          </p>
