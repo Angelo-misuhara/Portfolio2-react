@@ -45,7 +45,7 @@ body {
     border: black solid 1px;
     flex-direction: column-reverse;
     margin-top: 1rem;
-    gap: 2rem;
+    gap: 1rem;
   }
   #container-Proj img {
     width: 100%;
@@ -64,6 +64,5 @@ body {
   }
   #containercontext{
     padding-top: 0;
-    padding-bottom: 3rem;
   }
 }
