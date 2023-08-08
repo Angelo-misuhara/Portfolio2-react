@@ -7,7 +7,7 @@ const Projects = () => {
 
     useEffect(() => {
     AOS.init()
-    AOS.refreshHard()
+    AOS.refresh()
   })
 
   const Projects = [

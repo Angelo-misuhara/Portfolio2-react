@@ -5,7 +5,7 @@ const MainPage = () => {
 
   useEffect(() => {
     AOS.init()
-    AOS.refreshHard()
+    AOS.refresh()
   })
 
   const contacts = [
