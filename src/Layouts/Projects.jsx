@@ -51,7 +51,7 @@ const Projects = () => {
   
   return (
     <>
-      <h1 data-aos="fade-right" data-aos-duration="500" data-aos-delay="200"  className="mt-[13rem] font-black text-6xl text-center p-9 text-[#4fa165] text-" id="Projects">Recent <span className="text-4xl" data-aos="fade" data-aos-duration="500" data-aos-delay="400">Projects</span></h1>
+      <h1 data-aos="fade-right" data-aos-duration="900" data-aos-delay="200"  className="mt-[13rem] font-black text-6xl text-center p-9 text-[#4fa165] text-" id="Projects">Recent <span className="text-4xl" data-aos="fade" data-aos-duration="900" data-aos-delay="400">Projects</span></h1>
       <div className="flex flex-col gap-[5rem] overflow-hidden pb-2">
         {Projects.map((Proj,key) => (
         <div className=" rounded-lg m-9 flex flex-row justify-center gap-[9rem] p-9" id="container-Proj" data-aos="fade" key={key} data-aos-duration="800" data-aos-delay="100">
