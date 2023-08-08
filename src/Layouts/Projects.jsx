@@ -60,7 +60,7 @@ const Projects = () => {
               <h1 className="text-3xl font-medium" data-aos="fade-right" data-aos-duration="500" data-aos-delay="600">{Proj.title }</h1>
               <p className="text-justify" data-aos="fade-right" data-aos-duration="500" data-aos-delay="800">{Proj.About}</p>
              <div className='mt-5'>
-               <Button className='px-2 bg-[#d3e3e9] hover:bg-[#6fb8a7]' data-aos="fade-right" data-aos-duration="500" data-aos-delay="900">
+               <Button className='px-2 bg-[#d3e3e9] hover:bg-[#6fb8a7]' data-aos="fade-right" data-aos-duration="500" data-aos-delay="500">
                   <p>
                     <a href={Proj.link }>Visit Site</a>
          </p>
