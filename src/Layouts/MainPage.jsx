@@ -38,10 +38,10 @@ const MainPage = () => {
             ))}
           </div>
           <div className="flex flex-col pt-9 gap-3" id='tecchstock'>
-            <h1 className="text-3xl" id="techStock" data-aos="fade-right" data-aos-duration="800" data-aos-delay="1100">
+            <h1 className="text-3xl" id="techStock" data-aos="fade" data-aos-duration="800" data-aos-delay="1100">
               Tech Stock
             </h1>
-            <div className="flex flex-row gap-3">
+            <div className="flex flex-row gap-3" id='containerimgstock'>
               {techStock.map((tech, key) => (
                 <img src={tech} alt="" key={key} className="w-[2rem]" data-aos="fade-up" data-aos-duration="800" data-aos-delay={key*200} />
               ))}

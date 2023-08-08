@@ -5,7 +5,7 @@ body {
 @media screen and (max-width: 498px) {
   #mainpageIntro {
     margin: 0;
-    padding-top: 0;
+    padding-top: 1rem;
     justify-content: center;
     flex-direction: column-reverse;
   }
@@ -31,12 +31,16 @@ body {
   #intros span {
     font-size: 1.3rem;
   }
-  #techStock {
-    font-size: 1.7rem;
-  }
+
   #tecchstock {
-    padding-top: 1rem;
+    text-align: center;
+    padding-top: 13rem;
   }
+   #containerimgstock{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+   }
   #container-Proj {
     border: black solid 1px;
     flex-direction: column-reverse;
@@ -48,16 +52,18 @@ body {
   }
   #Projects {
     text-align: left;
-    margin-top: 2rem;
+    margin-top: 10rem;
     font-size: 2rem;
+    font-weight:900;
   }
   #Projects span {
     font-size: 3.7rem;
   }
   #container-Proj p {
-    text-align: start;
+    text-align:start;
   }
   #containercontext{
     padding-top: 0;
+    padding-bottom: 3rem;
   }
 }
