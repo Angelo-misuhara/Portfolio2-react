@@ -33,7 +33,7 @@ const MainPage = () => {
           <div className="flex flex-row gap-2 pt-2">
             {contacts.map((img, key) => (
                 <a href={img.link} rel='noreferrer' target='_blank' key={key}>
-                    <img src={img.img} alt="" className='w-[1rem]'/>
+                    <img src={img.img} alt="" className='w-[1rem]' data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900"/>
               </a>
             ))}
           </div>
