@@ -55,14 +55,15 @@ const Projects = () => {
       <div className="flex flex-col gap-[5rem] overflow-hidden pb-2">
         {Projects.map((Proj,key) => (
          <div className=" rounded-lg m-9 flex flex-row justify-center gap-[9rem] p-9" id="container-Proj" data-aos="fade" key={key} data-aos-duration="800" data-aos-delay="100">
-          <a href={Proj.link}> <div className="basis-2/4 flex flex-col gap-2 pt-4" id="containercontext">
-              <h1 className="text-3xl font-medium" data-aos="fade-right" data-aos-duration="500" data-aos-delay="600">{Proj.title }</h1>
+           <div className="basis-2/4 flex flex-col gap-2 pt-4" id="containercontext">
+               <a href={Proj.link}><h1 className="text-3xl font-medium" data-aos="fade-right" data-aos-duration="500" data-aos-delay="600">{Proj.title }</h1></a>
               <p className="text-justify" data-aos="fade-right" data-aos-duration="500" data-aos-delay="800">{Proj.About}</p>
              <div className='mt-5' data-aos="fade-right" data-aos-duration="500" data-aos-delay="500">
            </div>
             </div>
+          
+              <img src={Proj.img} alt="" className="w-2/6 rounded" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" />
            
-            <img src={Proj.img } alt="" className="w-2/6 rounded" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" /> </a>
           </div>
             
         ))}
